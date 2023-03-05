@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@localhost">
+  <database-model serializer="dbm" dbms="ORACLE" family-id="ORACLE" format-version="4.20">
+    <root id="1">
+      <ServerVersion>19.0.0.0.0</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="ANONYMOUS">
+      <ObjectId>67</ObjectId>
+    </schema>
+    <schema id="3" parent="1" name="APPQOSSYS">
+      <ObjectId>59</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="AUDSYS">
+      <ObjectId>8</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="CTXSYS">
+      <ObjectId>87</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="DBSFWUSER">
+      <ObjectId>37</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="DBSNMP">
+      <ObjectId>58</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="DIP">
+      <ObjectId>25</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="DVF">
+      <ObjectId>103</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="DVSYS">
+      <ObjectId>1279990</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="GGSYS">
+      <ObjectId>64</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="GSMADMIN_INTERNAL">
+      <ObjectId>22</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="GSMCATUSER">
+      <ObjectId>63</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="GSMROOTUSER">
+      <ObjectId>24</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="GSMUSER">
+      <ObjectId>23</ObjectId>
+    </schema>
+    <schema id="16" parent="1" name="LBACSYS">
+      <ObjectId>101</ObjectId>
+    </schema>
+    <schema id="17" parent="1" name="MARUI">
+      <ObjectId>107</ObjectId>
+      <CreatedTimestamp>2022-05-29.00:14:04</CreatedTimestamp>
+      <ModifiedTimestamp>2022-05-30.19:08:39</ModifiedTimestamp>
+      <IntrospectionVersion>200820</IntrospectionVersion>
+      <IntrospectionTimestamp>2022-05-30.19:12:45</IntrospectionTimestamp>
+      <Current>1</Current>
+    </schema>
+    <schema id="18" parent="1" name="MDDATA">
+      <ObjectId>99</ObjectId>
+    </schema>
+    <schema id="19" parent="1" name="MDSYS">
+      <ObjectId>93</ObjectId>
+    </schema>
+    <schema id="20" parent="1" name="OJVMSYS">
+      <ObjectId>85</ObjectId>
+    </schema>
+    <schema id="21" parent="1" name="OLAPSYS">
+      <ObjectId>96</ObjectId>
+    </schema>
+    <schema id="22" parent="1" name="ORACLE_OCM">
+      <ObjectId>41</ObjectId>
+    </schema>
+    <schema id="23" parent="1" name="ORDDATA">
+      <ObjectId>90</ObjectId>
+    </schema>
+    <schema id="24" parent="1" name="ORDPLUGINS">
+      <ObjectId>91</ObjectId>
+    </schema>
+    <schema id="25" parent="1" name="ORDSYS">
+      <ObjectId>89</ObjectId>
+    </schema>
+    <schema id="26" parent="1" name="OUTLN">
+      <ObjectId>13</ObjectId>
+    </schema>
+    <schema id="27" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+      <CreatedTimestamp>2019-05-30.11:10:17</CreatedTimestamp>
+      <ModifiedTimestamp>2022-04-24.18:57:42</ModifiedTimestamp>
+      <IntrospectionVersion>200820</IntrospectionVersion>
+    </schema>
+    <schema id="28" parent="1" name="REMOTE_SCHEDULER_AGENT">
+      <ObjectId>36</ObjectId>
+    </schema>
+    <schema id="29" parent="1" name="SCOTT">
+      <ObjectId>108</ObjectId>
+    </schema>
+    <schema id="30" parent="1" name="SI_INFORMTN_SCHEMA">
+      <ObjectId>92</ObjectId>
+    </schema>
+    <schema id="31" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="32" parent="1" name="SYS$UMF">
+      <ObjectId>50</ObjectId>
+    </schema>
+    <schema id="33" parent="1" name="SYSBACKUP">
+      <ObjectId>2147483617</ObjectId>
+    </schema>
+    <schema id="34" parent="1" name="SYSDG">
+      <ObjectId>2147483618</ObjectId>
+    </schema>
+    <schema id="35" parent="1" name="SYSKM">
+      <ObjectId>2147483619</ObjectId>
+    </schema>
+    <schema id="36" parent="1" name="SYSRAC">
+      <ObjectId>2147483620</ObjectId>
+    </schema>
+    <schema id="37" parent="1" name="SYSTEM">
+      <ObjectId>9</ObjectId>
+    </schema>
+    <schema id="38" parent="1" name="U1">
+      <ObjectId>109</ObjectId>
+    </schema>
+    <schema id="39" parent="1" name="U2">
+      <ObjectId>110</ObjectId>
+    </schema>
+    <schema id="40" parent="1" name="U3">
+      <ObjectId>111</ObjectId>
+    </schema>
+    <schema id="41" parent="1" name="U4">
+      <ObjectId>112</ObjectId>
+    </schema>
+    <schema id="42" parent="1" name="U5">
+      <ObjectId>113</ObjectId>
+    </schema>
+    <schema id="43" parent="1" name="U6">
+      <ObjectId>114</ObjectId>
+    </schema>
+    <schema id="44" parent="1" name="U7">
+      <ObjectId>115</ObjectId>
+    </schema>
+    <schema id="45" parent="1" name="WMSYS">
+      <ObjectId>76</ObjectId>
+    </schema>
+    <schema id="46" parent="1" name="XDB">
+      <ObjectId>66</ObjectId>
+    </schema>
+    <schema id="47" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </schema>
+    <user id="48" parent="1" name="ANONYMOUS">
+      <ObjectId>67</ObjectId>
+    </user>
+    <user id="49" parent="1" name="APPQOSSYS">
+      <ObjectId>59</ObjectId>
+    </user>
+    <user id="50" parent="1" name="AUDSYS">
+      <ObjectId>8</ObjectId>
+    </user>
+    <user id="51" parent="1" name="CTXSYS">
+      <ObjectId>87</ObjectId>
+    </user>
+    <user id="52" parent="1" name="DBSFWUSER">
+      <ObjectId>37</ObjectId>
+    </user>
+    <user id="53" parent="1" name="DBSNMP">
+      <ObjectId>58</ObjectId>
+    </user>
+    <user id="54" parent="1" name="DIP">
+      <ObjectId>25</ObjectId>
+    </user>
+    <user id="55" parent="1" name="DVF">
+      <ObjectId>103</ObjectId>
+    </user>
+    <user id="56" parent="1" name="DVSYS">
+      <ObjectId>1279990</ObjectId>
+    </user>
+    <user id="57" parent="1" name="GGSYS">
+      <ObjectId>64</ObjectId>
+    </user>
+    <user id="58" parent="1" name="GSMADMIN_INTERNAL">
+      <ObjectId>22</ObjectId>
+    </user>
+    <user id="59" parent="1" name="GSMCATUSER">
+      <ObjectId>63</ObjectId>
+    </user>
+    <user id="60" parent="1" name="GSMROOTUSER">
+      <ObjectId>24</ObjectId>
+    </user>
+    <user id="61" parent="1" name="GSMUSER">
+      <ObjectId>23</ObjectId>
+    </user>
+    <user id="62" parent="1" name="LBACSYS">
+      <ObjectId>101</ObjectId>
+    </user>
+    <user id="63" parent="1" name="MARUI">
+      <ObjectId>107</ObjectId>
+    </user>
+    <user id="64" parent="1" name="MDDATA">
+      <ObjectId>99</ObjectId>
+    </user>
+    <user id="65" parent="1" name="MDSYS">
+      <ObjectId>93</ObjectId>
+    </user>
+    <user id="66" parent="1" name="OJVMSYS">
+      <ObjectId>85</ObjectId>
+    </user>
+    <user id="67" parent="1" name="OLAPSYS">
+      <ObjectId>96</ObjectId>
+    </user>
+    <user id="68" parent="1" name="ORACLE_OCM">
+      <ObjectId>41</ObjectId>
+    </user>
+    <user id="69" parent="1" name="ORDDATA">
+      <ObjectId>90</ObjectId>
+    </user>
+    <user id="70" parent="1" name="ORDPLUGINS">
+      <ObjectId>91</ObjectId>
+    </user>
+    <user id="71" parent="1" name="ORDSYS">
+      <ObjectId>89</ObjectId>
+    </user>
+    <user id="72" parent="1" name="OUTLN">
+      <ObjectId>13</ObjectId>
+    </user>
+    <user id="73" parent="1" name="REMOTE_SCHEDULER_AGENT">
+      <ObjectId>36</ObjectId>
+    </user>
+    <user id="74" parent="1" name="SCOTT">
+      <ObjectId>108</ObjectId>
+    </user>
+    <user id="75" parent="1" name="SI_INFORMTN_SCHEMA">
+      <ObjectId>92</ObjectId>
+    </user>
+    <user id="76" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </user>
+    <user id="77" parent="1" name="SYS$UMF">
+      <ObjectId>50</ObjectId>
+    </user>
+    <user id="78" parent="1" name="SYSBACKUP">
+      <ObjectId>2147483617</ObjectId>
+    </user>
+    <user id="79" parent="1" name="SYSDG">
+      <ObjectId>2147483618</ObjectId>
+    </user>
+    <user id="80" parent="1" name="SYSKM">
+      <ObjectId>2147483619</ObjectId>
+    </user>
+    <user id="81" parent="1" name="SYSRAC">
+      <ObjectId>2147483620</ObjectId>
+    </user>
+    <user id="82" parent="1" name="SYSTEM">
+      <ObjectId>9</ObjectId>
+    </user>
+    <user id="83" parent="1" name="U1">
+      <ObjectId>109</ObjectId>
+    </user>
+    <user id="84" parent="1" name="U2">
+      <ObjectId>110</ObjectId>
+    </user>
+    <user id="85" parent="1" name="U3">
+      <ObjectId>111</ObjectId>
+    </user>
+    <user id="86" parent="1" name="U4">
+      <ObjectId>112</ObjectId>
+    </user>
+    <user id="87" parent="1" name="U5">
+      <ObjectId>113</ObjectId>
+    </user>
+    <user id="88" parent="1" name="U6">
+      <ObjectId>114</ObjectId>
+    </user>
+    <user id="89" parent="1" name="U7">
+      <ObjectId>115</ObjectId>
+    </user>
+    <user id="90" parent="1" name="WMSYS">
+      <ObjectId>76</ObjectId>
+    </user>
+    <user id="91" parent="1" name="XDB">
+      <ObjectId>66</ObjectId>
+    </user>
+    <user id="92" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </user>
+    <table id="93" parent="17" name="CLASSTIME">
+      <ObjectId>74084</ObjectId>
+      <CreatedTimestamp>2022-05-29.00:14:04</CreatedTimestamp>
+      <ModifiedTimestamp>2022-05-30.06:24:01</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="94" parent="17" name="COURSE">
+      <ObjectId>74083</ObjectId>
+      <CreatedTimestamp>2022-05-29.00:14:04</CreatedTimestamp>
+      <ModifiedTimestamp>2022-05-30.06:24:25</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="95" parent="17" name="SCORE">
+      <ObjectId>74085</ObjectId>
+      <CreatedTimestamp>2022-05-29.00:14:04</CreatedTimestamp>
+      <ModifiedTimestamp>2022-05-30.08:15:56</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="96" parent="17" name="STUDENT">
+      <ObjectId>74086</ObjectId>
+      <CreatedTimestamp>2022-05-29.00:14:04</CreatedTimestamp>
+      <ModifiedTimestamp>2022-05-30.19:08:39</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="97" parent="17" name="STUSER">
+      <ObjectId>74096</ObjectId>
+      <CreatedTimestamp>2022-05-29.00:23:41</CreatedTimestamp>
+      <ModifiedTimestamp>2022-05-30.08:35:17</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="98" parent="17" name="TEACHER">
+      <ObjectId>74087</ObjectId>
+      <CreatedTimestamp>2022-05-29.00:14:04</CreatedTimestamp>
+      <ModifiedTimestamp>2022-05-30.19:08:24</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <column id="99" parent="93" name="COURSE_CNO">
+      <Position>1</Position>
+      <DataType>NVARCHAR2(8 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="100" parent="93" name="CLASS_WEEKEND">
+      <Position>2</Position>
+      <DataType>NUMBER(11 digit)|0s</DataType>
+    </column>
+    <column id="101" parent="93" name="CLASS_TIME">
+      <Position>3</Position>
+      <DataType>NUMBER(11 digit)|0s</DataType>
+    </column>
+    <index id="102" parent="93" name="SYS_C007740">
+      <ObjectId>74297</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2022-05-30.06:24:01</CreatedTimestamp>
+      <ModifiedTimestamp>2022-05-30.06:24:01</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>COURSE_CNO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="103" parent="93" name="SYS_C007740">
+      <ModifiedTimestamp>2022-05-30.06:24:01</ModifiedTimestamp>
+      <ColNames>COURSE_CNO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007740</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="104" parent="94" name="COURSE_NAME">
+      <Position>1</Position>
+      <DataType>NVARCHAR2(30 char)|0s</DataType>
+    </column>
+    <column id="105" parent="94" name="COURSE_CNO">
+      <Position>2</Position>
+      <DataType>NVARCHAR2(8 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="106" parent="94" name="COURSE_INFORMATION">
+      <Position>3</Position>
+      <DataType>NVARCHAR2(20 char)|0s</DataType>
+    </column>
+    <column id="107" parent="94" name="COURSE_NUMBER">
+      <Position>4</Position>
+      <DataType>NUMBER(11 digit)|0s</DataType>
+    </column>
+    <index id="108" parent="94" name="COURSE_CNO">
+      <ObjectId>74093</ObjectId>
+      <CreatedTimestamp>2022-05-29.00:14:04</CreatedTimestamp>
+      <ModifiedTimestamp>2022-05-29.00:14:04</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>COURSE_CNO</ColNames>
+    </index>
+    <key id="109" parent="94" name="SYS_C007741">
+      <ModifiedTimestamp>2022-05-30.06:24:25</ModifiedTimestamp>
+      <ColNames>COURSE_CNO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>COURSE_CNO</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="110" parent="95" name="STUDENT_SNO">
+      <Position>1</Position>
+      <DataType>NVARCHAR2(8 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="111" parent="95" name="COURSE_CNO">
+      <Position>2</Position>
+      <DataType>NVARCHAR2(8 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="112" parent="95" name="TEACHER_TNO">
+      <Position>3</Position>
+      <DataType>NVARCHAR2(8 char)|0s</DataType>
+    </column>
+    <column id="113" parent="95" name="SCORE">
+      <Position>4</Position>
+      <DataType>NUMBER(11 digit)|0s</DataType>
+    </column>
+    <column id="114" parent="95" name="SCORE_ID">
+      <Position>5</Position>
+      <DataType>CHAR(32 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="115" parent="95" name="SYS_C007772">
+      <ObjectId>74301</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2022-05-30.08:15:56</CreatedTimestamp>
+      <ModifiedTimestamp>2022-05-30.08:15:56</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>SCORE_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="116" parent="95" name="SYS_C007772">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2022-05-30.08:15:56</ModifiedTimestamp>
+      <ColNames>SCORE_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007772</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="117" parent="96" name="STUDENT_NAME">
+      <Position>1</Position>
+      <DataType>NVARCHAR2(8 char)|0s</DataType>
+    </column>
+    <column id="118" parent="96" name="STUDENT_SNO">
+      <Position>2</Position>
+      <DataType>NVARCHAR2(8 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="119" parent="96" name="STUDENT_AGE">
+      <Position>3</Position>
+      <DataType>NVARCHAR2(2 char)|0s</DataType>
+    </column>
+    <column id="120" parent="96" name="STUDENT_DATE">
+      <Position>4</Position>
+      <DataType>NVARCHAR2(20 char)|0s</DataType>
+    </column>
+    <column id="121" parent="96" name="STUDENT_PHONE">
+      <Position>5</Position>
+      <DataType>NVARCHAR2(11 char)|0s</DataType>
+    </column>
+    <column id="122" parent="96" name="STUDENT_ADDRESS">
+      <Position>6</Position>
+      <DataType>NVARCHAR2(50 char)|0s</DataType>
+    </column>
+    <column id="123" parent="96" name="STUDENT_CLASS">
+      <Position>7</Position>
+      <DataType>NVARCHAR2(20 char)|0s</DataType>
+    </column>
+    <index id="124" parent="96" name="SYS_C007743">
+      <ObjectId>74298</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2022-05-30.06:24:36</CreatedTimestamp>
+      <ModifiedTimestamp>2022-05-30.06:24:36</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>STUDENT_SNO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="125" parent="96" name="SYS_C007743">
+      <ModifiedTimestamp>2022-05-30.06:24:36</ModifiedTimestamp>
+      <ColNames>STUDENT_SNO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007743</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="126" parent="97" name="USER_NAME">
+      <Position>1</Position>
+      <DataType>NVARCHAR2(8 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="127" parent="97" name="USER_PASSWORD">
+      <Position>2</Position>
+      <DataType>NVARCHAR2(255 char)|0s</DataType>
+    </column>
+    <column id="128" parent="97" name="USER_TYPE">
+      <Position>3</Position>
+      <DataType>NVARCHAR2(8 char)|0s</DataType>
+    </column>
+    <index id="129" parent="97" name="SYS_C007746">
+      <ObjectId>74302</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2022-05-30.08:35:17</CreatedTimestamp>
+      <ModifiedTimestamp>2022-05-30.08:35:17</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>USER_NAME</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="130" parent="97" name="SYS_C007746">
+      <ModifiedTimestamp>2022-05-30.08:35:17</ModifiedTimestamp>
+      <ColNames>USER_NAME</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007746</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="131" parent="98" name="TEACHER_NAME">
+      <Position>1</Position>
+      <DataType>NVARCHAR2(20 char)|0s</DataType>
+    </column>
+    <column id="132" parent="98" name="TEACHER_TNO">
+      <Position>2</Position>
+      <DataType>NVARCHAR2(8 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="133" parent="98" name="TEACHER_AGE">
+      <Position>3</Position>
+      <DataType>NVARCHAR2(20 char)|0s</DataType>
+    </column>
+    <column id="134" parent="98" name="TEACHER_DATE">
+      <Position>4</Position>
+      <DataType>DATE|0s</DataType>
+    </column>
+    <column id="135" parent="98" name="TEACHER_PHONE">
+      <Position>5</Position>
+      <DataType>NVARCHAR2(11 char)|0s</DataType>
+    </column>
+    <column id="136" parent="98" name="TEACHER_ADDRESS">
+      <Position>6</Position>
+      <DataType>NVARCHAR2(50 char)|0s</DataType>
+    </column>
+    <column id="137" parent="98" name="TEACHER_COURSE_ID">
+      <Position>7</Position>
+      <DataType>NVARCHAR2(8 char)|0s</DataType>
+    </column>
+    <index id="138" parent="98" name="SYS_C007739">
+      <ObjectId>74296</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2022-05-30.06:22:54</CreatedTimestamp>
+      <ModifiedTimestamp>2022-05-30.06:22:54</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>TEACHER_TNO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="139" parent="98" name="SYS_C007739">
+      <ModifiedTimestamp>2022-05-30.06:22:54</ModifiedTimestamp>
+      <ColNames>TEACHER_TNO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007739</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
